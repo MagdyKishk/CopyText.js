@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --secondary-color:#999;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: coral;
+}
+
+.wrapper {
+  background-color: white;
+  padding: 25px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 0px;
+}
+
+.wrapper input {
+  height: 65px;
+  width: 300px;
+  font-size: 1.2rem;
+  padding: 0 20px;
+  border: none;
+  outline: none;
+}
+
+.wrapper button {
+  display: block;
+  height: 65px;
+  padding: 0 30px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=main.css.map */
